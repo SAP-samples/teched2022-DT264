@@ -73,7 +73,8 @@ The Site Manager is an admin application for creating and maintaining launchpad 
   <img src="./images/tut1-8.png" width="95%" />
 </p>
 
-There are three main pages available: 
+
+Within the Site Manager there are three main pages available: 
 
 **1.  Site Directory:** 
     Here you will create & maintain different Launchpad sites and their settings. 
