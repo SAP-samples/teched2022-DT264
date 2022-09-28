@@ -14,7 +14,7 @@
     <img src="./images/tut4-1.png" width="100%" />
     </p>
 
-2.	2.	Starting in the **Properties** section you can enter the values below. As an example, in this Tutorial the SAP SuccessFactors native app will be used. This app has the possibility to configure deep links to not only open the native app, but directly navigate to a specific screen. 
+2.  Starting in the **Properties** section you can enter the values below. As an example, in this Tutorial the SAP SuccessFactors native app will be used. This app has the possibility to configure deep links to not only open the native app, but directly navigate to a specific screen. 
    
     |Name|Value|Description|
     | ----------------- | ----------------------------------------------------- | ------------------------------------ |
