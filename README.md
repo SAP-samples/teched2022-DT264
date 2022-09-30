@@ -6,7 +6,8 @@ This repository contains the material for the SAP TechEd 2022 session called DT2
 
 ## Overview
 
-This session introduces attendees to...
+The SAP Mobile Start app is your native entry point to SAP’s mobile universe.
+Discover how to set up and configure SAP Mobile Start with SAP S/4HANA and how to add your native apps. You will understand all the prerequisites and necessary steps.
 
 ## Requirements
 
