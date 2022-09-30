@@ -1,8 +1,8 @@
-# Session ID - Session Title
+# DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA.
 
 ## Overview
 
