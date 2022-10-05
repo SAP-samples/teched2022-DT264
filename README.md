@@ -15,12 +15,14 @@ The requirements to follow the exercises in this repository are...
 
 ## Exercises
 
-- [Exercise 1 - Access the SAP Launchpad service](exercises/ex1/)
-- [Exercise 2 - Create a Basic Site Manager Setup](exercises/ex2/)
-- [Exercise 3 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex3/)
-- [Exercise 4 - Create Native App Tile for SAP Mobile Start](exercises/ex4/)
-- [Exercise 5 - Create News Feed Tile for SAP Mobile Start](exercises/ex5/)
-- [Exercise 6 - Configure Voice Commands for SAP Mobile Start on Apple iOS](exercises/ex6/)
+> **NOTE:** For the SAP TechEd 2022 Hands-On Session we have already prepared the landscape with the SAP Launchpad service. Please start directly with [Exercise 1](../ex1) as an in-person participant.
+
+- [Exercise 0 - Access the SAP Launchpad service](exercises/ex0/) (skip on TechEd 2022 Hands-On)
+- [Exercise 1 - Create a Basic Site Manager Setup](exercises/ex1/)
+- [Exercise 2 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex2/)
+- [Exercise 3 - Create Native App Tile for SAP Mobile Start](exercises/ex3/)
+- [Exercise 4 - Create News Feed Tile for SAP Mobile Start](exercises/ex4/)
+- [Exercise 5 - Configure Voice Commands for SAP Mobile Start on Apple iOS](exercises/ex5/)
 
 ## How to obtain support
 
