@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Launchpad service instance enabled
+- SAP BTP Subaccount with SAP Launchpad Service instance enabled
 - Admin access for this subaccount
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
@@ -62,20 +62,17 @@
 5. Save the Tile via the button on the top right & return to the content manager. In a subaccount with a lot of items, you can search for your app by using title & description.
     (***Hint**: you can use your ## number to do that*)
 
-## Step 2: Create your own Role and assign your App to it
+## Step 2: Find your own Role and assign your App to it
 
-1. Back in the **Content Manager** click the **+ New** button and select Role from the dropdown. 
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session, a role has already been created and assigned to you. You just need to assign your freshly created App to your role. When executing this tutorial outside of TechEd, it might be required to create a new Role or reuse an existing one.
+
+1. Back in the **Content Manager** search for your number to locate the Role that has been created for you. (*Make sure to use your number ## for identification*)
 
     <p align="center">
       <img src="./images/tut2-5.png" width="100%" />
     </p>
 
-2. You need to enter a Title and Description for your Role. (*Make sure to use your number ## for identification*)
-
-    | Name | Value | Description |
-    | ----------- | ------------------ | ------------------------------------ |
-    | Title       | `Role of ##`         | Defines the name of your Role. |
-    | Description | E.g. `My first Role` | Additional info to describe your Role. This is shown in the Site Managers app list. |
+2. Click on the entry to open it, click Edit afterwards on the top right.
 
 3. Once done, you can add your app in the **Assignments** pane on the right. You can use your ## to find it, then press the **+ icon** to add it to your role.
 
@@ -85,9 +82,11 @@
 
 4. Make sure to Save your role via **Save**. Once your role is saved it will be created as a Role Collection in the SAP BTP Cockpit.
 
-    > **NOTE:** The term/concept of Role in Site Manager maps to the term/concept of Role Collection in SAP BTP cockpit.
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session, the role has already been assigned to you, thus please skip the next point. When executing this tutorial outside of TechEd, you can follow the last point of Step 2 to assign the role to you in BTP Cockpit.
 
-5. At this point you should return to the BTP Cockpit to assign the new Role Collection to your User: Open the **Security > Users** section and search for your user. Click on your user, then **Assign Role Collection**.
+1. At this point you should return to the BTP Cockpit to assign the new Role Collection to your User: Open the **Security > Users** section and search for your user. Click on your user, then **Assign Role Collection**.
+
+    > **NOTE:** The term/concept of Role in Site Manager maps to the term/concept of Role Collection in SAP BTP cockpit.
 
    <p align="center">
      <img src="./images/tut2-7.png" width="100%" />

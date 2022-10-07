@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Launchpad service instance enabled
+- SAP BTP Subaccount with SAP Launchpad Service instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
 ## Step 1: Create the Native App Tile (example for SAP SuccessFactors)

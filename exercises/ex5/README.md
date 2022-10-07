@@ -3,10 +3,10 @@
 ## Prerequisites:
 
 - iOS Device with SAP Mobile Start
-- SAP BTP Subaccount with SAP Launchpad service instance enabled
+- SAP BTP Subaccount with SAP Launchpad Service instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
-- SAP S/4HANA System connected to the SAP BTP Subaccount
-- Destinations pointing to this SAP S/4HANA System for both Run-Time and Design-Time
+- SAP S/4HANA system connected to the SAP BTP Subaccount
+- Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
 - Roles assigned to the user in SAP S/4HANA
 
 > **Note:** SAP Mobile Start currently only supports voice commands on the iOS App.

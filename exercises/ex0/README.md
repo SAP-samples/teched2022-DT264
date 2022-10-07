@@ -1,11 +1,11 @@
 
-# Access the SAP Launchpad service
+# Access the SAP Launchpad Service
 
-> **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-On Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-On Workshop outside of TechEd 2022.  
+> **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-on Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-on Workshop outside of TechEd 2022.  
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Launchpad service entitlement
+- SAP BTP Subaccount with SAP Launchpad Service entitlement
 - Admin access for this Subaccount
 
 ## Step 1: Create Launchpad service instance
@@ -52,7 +52,7 @@ Adding the Launchpad_Admin Role Collection to a user allows them to access the L
 
  > **NOTE:** You might need to wait a few minutes or perform a re-login to the SAP BTP Cockpit for the new role collection to become active. Before that you might face an Access Denied error if you try to access the Launchpad service application.
 
-## Step 3: Access the SAP Launchpad service Site Manager
+## Step 3: Access the SAP Launchpad Service Site Manager
 
 The Site Manager is an admin application for creating and maintaining launchpad sites and content.
 

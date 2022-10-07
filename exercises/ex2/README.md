@@ -2,12 +2,12 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Launchpad service instance enabled
+- SAP BTP Subaccount with SAP Launchpad Service instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
-- SAP S/4HANA System connected to the SAP BTP Subaccount
-- Content got exposed from the SAP S/4HANA System
-- Destinations pointing to this SAP S/4HANA System for both Run-Time and Design-Time
-- End-user needs to have a matching User on the SAP S/4HANA System with fitting authorizations for the exposed content.
+- SAP S/4HANA system connected to the SAP BTP Subaccount
+- Content got exposed from the SAP S/4HANA system
+- Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
+- End-user needs to have a matching User on the SAP S/4HANA system with fitting authorizations for the exposed content.
 
 ## Step 1: Create a Content Channel
 
@@ -17,7 +17,7 @@
     <img src="./images/tut3-1.png" width="100%" />
     </p>
 
-    You will see a list of all existing Content Channels available. In a blank SAP Launchpad service instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
+    You will see a list of all existing Content Channels available. In a blank SAP Launchpad Service instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
 
 2. Create your own Content Channel by clicking the **+ New** button in the top right. In the upcoming popup you can define the technical details. Fill in the values as given below:
 
