@@ -1,14 +1,14 @@
 
-# Access the SAP Launchpad Service
+# Access the SAP Build Work Zone standard
 
 > **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-on Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-on Workshop outside of TechEd 2022.  
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Launchpad Service entitlement
+- SAP BTP Subaccount with SAP Build Work Zone standard entitlement
 - Admin access for this Subaccount
 
-## Step 1: Create Launchpad service instance
+## Step 1: Create SAP Build Work Zone standard instance
 
 1. Log into your SAP BTP Cockpit and select **Services > Service Marketplace**.
 
@@ -52,7 +52,7 @@ Adding the Launchpad_Admin Role Collection to a user allows them to access the L
 
  > **NOTE:** You might need to wait a few minutes or perform a re-login to the SAP BTP Cockpit for the new role collection to become active. Before that you might face an Access Denied error if you try to access the Launchpad service application.
 
-## Step 3: Access the SAP Launchpad Service Site Manager
+## Step 3: Access the SAP Build Work Zone standard Site Manager
 
 The Site Manager is an admin application for creating and maintaining launchpad sites and content.
 

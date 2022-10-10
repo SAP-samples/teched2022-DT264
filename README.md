@@ -15,7 +15,7 @@ Discover how to set up and configure SAP Mobile Start with SAP S/4HANA and how t
 
 The requirements to follow the exercises in this repository are:
 
-- SAP BTP Subaccount with SAP Launchpad Service entitlement
+- SAP BTP Subaccount with SAP Build Work Zone standard entitlement
 - Admin access for this subaccount
 - SAP S/4HANA system connected to the SAP BTP Subaccount
 - Content Exposure set up for the SAP S/4HANA system
@@ -24,11 +24,11 @@ The requirements to follow the exercises in this repository are:
 
 ## Exercises
 
-> **NOTE:** For the SAP TechEd 2022 Hands-on Session we have already prepared the landscape with the SAP Launchpad Service. Please start directly with [Exercise 1](../ex1) as an in-person participant.
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session we have already prepared the landscape with the SAP Build Work Zone standard. Please start directly with [Exercise 1](../ex1) as an in-person participant.
 
-- [Exercise 0 - Access the SAP Launchpad Service](exercises/ex0/) (skip on TechEd 2022 Hands-on)
-- [Exercise 1 - Create a Basic Site Manager Setup](exercises/ex1/)
-- [Exercise 2 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex2/)
+- [Exercise 0 - Access the SAP Build Work Zone standard](exercises/ex0/) (skip on TechEd 2022 Hands-on)
+- [Exercise 1 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex1/)
+- [Exercise 2 - Create own content in Site Manager](exercises/ex2/)
 - [Exercise 3 - Create Native App Tile for SAP Mobile Start](exercises/ex3/)
 - [Exercise 4 - Create News Feed Tile for SAP Mobile Start](exercises/ex4/)
 - [Exercise 5 - Configure Voice Commands for SAP Mobile Start on Apple iOS](exercises/ex5/)
