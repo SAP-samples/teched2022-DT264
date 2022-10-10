@@ -9,14 +9,14 @@
 - Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
 - Roles assigned to the user in SAP S/4HANA
 
-> **Note:** SAP Mobile Start currently only supports voice commands on the iOS App.
+> **NOTE:** SAP Mobile Start currently only supports voice commands on the iOS App.
 This tutorial is therefore only applicable to iOS users of SAP Mobile Start.
 The two supported voice commands at the time of the creation of the tutorial are:
 Overdue Receivables and Days Sales Outstanding within the Finance Persona.
 
 ## Step 1: Create the Voice Configuration tile
 
-> **Note:** As an example, in this tutorial the Overdue Receivables Voice command will be configured.
+> **NOTE:** As an example, in this tutorial the Overdue Receivables Voice command will be configured.
 You will use the Visualization parameters later to declare your app as a Voice Configuration for SAP Mobile Start.
 For other devices than the iOS App of SAP Mobile Start, the app will be available as regular tile only.
 
@@ -33,7 +33,7 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
     | Title             | `Overdue Receivables ##` <br /> (*use your number instead of ##*)   |Title you will see on top of the tile.|
     | Description       | `Voice Command for ##` <br /> (*use your number instead of ##*) |Additional info to describe your app. This is shown in the Site Managers app list.| 
     | Open App          | Select **In place**  | Defines the app will be launched within the UI5 shell |
-    | System            | **TODO**  |Field to define the connected backend system an app is running on. In this case **TODO** is used / needed.|
+    | System            | `he4rt`  |Field to define the connected backend system an app is running on. In this case **he4rt** is used / needed.|
     | App UI Technology | SAPUI5 |Defines type of App. In this case the tile points to the Fiori App in the connected SAP system. |
     | SAPUI5 Component | `k1471533162136` | The SAP UI5 Component which can be found in the [SAP Fiori Apps Library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1747')/S29)|
 
@@ -79,6 +79,8 @@ you need to enter the following parameter names and values:
     | `mobilestart.voice.intentId` | `com.sap.mobile.start.overduereceivables`| Defines to which voice command this configuration belongs |
     | `mobilestart.tile.hidden` | `false` | Defines whether this tile shall be hidden from the in-app screens of SAP Mobile Start. Can be set to true if you don't want this tile to show in SAP Mobile Start but still want to use it as Voice configuration. |
 
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session we are using a separate destination here for the data access. Usually it is the same as selected under the **Properties** section.
+
 It should look like this:
 
 <p align="center">
@@ -110,7 +112,7 @@ In the Assignments section on the right, search for your newly created Voice Con
     Shortcuts app and click on the **+** on the top right to define a
     new shortcut. Choose **Overdue Receivables** as name.
 
-    > **Note**: The chosen name will also be the trigger word(s) to start
+    > **NOTE:**: The chosen name will also be the trigger word(s) to start
     the voice command using Apple Siri. You can also choose a different
     name depending on your preferences.
 

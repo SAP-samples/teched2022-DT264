@@ -26,12 +26,12 @@
     | Title                   | `Content Channel of ##` (*use your number instead of ##*) | Name / Title of Content Channel – often similar to the name of the provider system |
     | Description             | -                                                       | Optional field for further description |
     | ID                      | `Channel_##` (*use your number instead of ##*)            | ID of Content Channel - gets auto filled based on Title (max 20 characters) |
-    | Design-Time Destination | **TBD**                                                 | Design-Time destination of provider system - based on configured Destinations in the Subaccount|
-    | Runtime Destination     | **TBD**                                                 | Runtime destination of provider system – based on configured Destinations in the Subaccount |
+    | Design-Time Destination | `he4dt`                                         | Design-Time destination of provider system - based on configured Destinations in the Subaccount|
+    | Runtime Destination     | `he4rt`                                    | Runtime destination of provider system – based on configured Destinations in the Subaccount |
     | Runtime Destination for OData | Use default runtime destination                   | Some provider systems require a special destination for OData calls |
     | Content Addition Mode   | Manual addition of selected content items               | Defines if you can manually select content you want to add to your Site Manager or if all the provided content should be added automatically |
 
-    It should look like this: **EDIT SCREENSHOT HERE**
+    It should look like this:
 
     <p align="center">
     <img src="./images/tut3-2.png" width="50%" />
