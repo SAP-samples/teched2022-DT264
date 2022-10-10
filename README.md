@@ -1,41 +1,42 @@
-# Session ID - Session Title
+# DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA.
 
 ## Overview
 
-This session introduces attendees to...
+The SAP Mobile Start app is your native entry point to SAP’s mobile universe.
+Discover how to set up and configure SAP Mobile Start with SAP S/4HANA and how to add your native apps. You will understand all the prerequisites and necessary steps.
+
+> **NOTE:** The product **SAP Build Work Zone standard** is formerly known as SAP Launchpad Service. Please be aware that some screenshots or systems in this might Hands-on material still contain the former name.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are:
+
+- SAP BTP Subaccount with SAP Build Work Zone standard entitlement
+- Admin access for this subaccount
+- SAP S/4HANA system connected to the SAP BTP Subaccount
+- Content Exposure set up for the SAP S/4HANA system
+- Roles assigned to the user in SAP S/4HANA matching the exposed content
+- A mobile phone (iOS or Android) capable of running SAP Mobile Start
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session we have already prepared the landscape with the SAP Build Work Zone standard. Please start directly with [Exercise 1](../ex1) as an in-person participant.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 0 - Access the SAP Build Work Zone standard](exercises/ex0/) (skip on TechEd 2022 Hands-on)
+- [Exercise 1 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex1/)
+- [Exercise 2 - Create own content in Site Manager](exercises/ex2/)
+- [Exercise 3 - Create Native App Tile for SAP Mobile Start](exercises/ex3/)
+- [Exercise 4 - Create News Feed Tile for SAP Mobile Start](exercises/ex4/)
+- [Exercise 5 - Configure Voice Commands for SAP Mobile Start on Apple iOS](exercises/ex5/)
 
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
+
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
