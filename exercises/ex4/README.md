@@ -21,7 +21,7 @@
     | ----------------- | ----------------------------------------------------- | ------------------------------------ |
     | Title             | `SAP News ##` <br /> (*use your number instead of ##*)          | Title you will see on top of the tile |
     | Description       | `SAP News feed for ##` <br /> (*use your number instead of ##*) | Additional info to describe your app. This is shown in the Site Managers app list.|
-    | Open App          | Select **In a new tab**                                       | Defines whether an app is opened in place within the Launchpad shell or in a new browser tab. For URL Tiles we use In a new tab. |  
+    | Open App          | Select **In a new tab**                                       | Defines whether an app is opened in place within the UI5 shell or in a new browser tab. For URL Tiles we use In a new tab. |  
     | System            | No System                                                     | Field to define the connected backend system an app is running on. In this case no system is used / needed.|
     | App UI Technology | URL                                                           | Defines type of App. In this case the News feed specific configuration for SAP Mobile Start is done in the Visualization parameters. Anyways it’s possible to use the same tile as an URL Tile in parallel on the desktop to point to the news URL. |
     | URL               | `https://news.sap.com/`                                         | URL for the app to navigate to on desktop.    |
@@ -123,9 +123,9 @@ To add SAP Mobile Start widgets to your home screen you can use the default iOS 
 
 >**NOTE:** The use of Widgets allowed/prohibited by the landscape admins. There’s a flag available for that in SAP Mobile Services. You can find more info on Widgets in this [blogpost](https://blogs.sap.com/2021/09/03/sap-mobile-start-use-the-business-info-widget-to-monitor-your-business-directly-from-home-screen/). We have already enabled this in the tutorial landscape so that you can add a widget to your device.
 
-## Step 5: Troubleshooting
+## Troubleshooting
 
-1. You don’t see the News Feed / URL Tile on your SAP Mobile Start app / Launchpad Site:
+1. You don’t see the News Feed / URL Tile on your SAP Mobile Start app Site:
     - It’s possible the Role Collection assignment to your user is not yet active. Make sure your User has the new Role Collection assigned and log out / in again.
     - Maybe you missed one of the assignments you need to add the News feed app to your Group & Role.
 

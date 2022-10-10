@@ -20,7 +20,7 @@
     | ----------------- | ----------------------------------------------------- | ------------------------------------ |
     | Title             | `SAP.com_##` <br /> (*use your number instead of ##*)   |Title you will see on top of the tile.|
     | Description       | `URL Tile_##` <br />	(*use your number instead of ##*) |Additional info to describe your app. This is shown in the Site Managers app list.|
-    | Open App          | Select **In a new tab**                               |Defines whether an app is opened in place within the Launchpad shell or in a new browser tab. For URL Tiles we use In a new tab. |
+    | Open App          | Select **In a new tab**                               |Defines whether an app is opened in place within the UI5 shell or in a new browser tab. For URL Tiles we use In a new tab. |
     | System            | No System                                             |Field to define the connected backend system an app is running on. In this case no system is used / needed.|
     | App UI Technology | URL                                                   |Defines type of App. In this case a tile pointing to an URL. |
     | URL               | `https://sap.com`          |URL the tile should open|
@@ -86,7 +86,7 @@
   
 ## Step 3: Create your own Group and assign your App to it
 
-Apps will only show directly on the Launchpad / within SAP Mobile Start if they are assigned to a **Group** (see image below). If not, they are only available via the App finder on Desktop or the search in SAP Mobile Start.
+Apps will only show directly on the Site / within SAP Mobile Start if they are assigned to a **Group** (see image below). If not, they are only available via the App finder on Desktop or the search in SAP Mobile Start.
 
 <p align="center">
      <img src="./images/tut2-9.png" width="60%" />
@@ -139,7 +139,7 @@ It might be confusing to understand how the created items interact with each oth
 
 ## Troubleshooting
 
- 1. You don’t see the Group / Tile on your Launchpad Site:
+ 1. You don’t see the Group / Tile on your Site:
       - It’s possible the Role Collection assignment to your user is not yet active. Make sure your User has the new Role Collection assigned and log out / in again.
       - Maybe you missed one of the assignments while creating the Role, Group or Site.
 

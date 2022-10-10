@@ -32,7 +32,7 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
     | ----------------- | ----------------------------------------------------- | ------------------------------------ |
     | Title             | `Overdue Receivables ##` <br /> (*use your number instead of ##*)   |Title you will see on top of the tile.|
     | Description       | `Voice Command for ##` <br /> (*use your number instead of ##*) |Additional info to describe your app. This is shown in the Site Managers app list.| 
-    | Open App          | Select **In place**  |Defines the app will be launched within the Launchpad shell |
+    | Open App          | Select **In place**  | Defines the app will be launched within the UI5 shell |
     | System            | **TODO**  |Field to define the connected backend system an app is running on. In this case **TODO** is used / needed.|
     | App UI Technology | SAPUI5 |Defines type of App. In this case the tile points to the Fiori App in the connected SAP system. |
     | SAPUI5 Component | `k1471533162136` | The SAP UI5 Component which can be found in the [SAP Fiori Apps Library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1747')/S29)|

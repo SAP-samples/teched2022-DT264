@@ -14,6 +14,8 @@
 
 2. Search for “**Launchpad Service**” and select the entry.
 
+> **NOTE:** Due to the rebranding to *SAP Build Work Zone standard* the entry in the Service Marketplace might be available under the new name for you. 
+
 3. In the **Application Plans** section choose the 3 dots for the standard plan and click **Create**.
 
   <p align="center">
@@ -26,15 +28,15 @@
     <img src="./images/tut1-2.png"/>
   </p>
 
-5. After that, another popup confirms that your subscription is being created. Click **View Subscription** to navigate to the **Instances and Subscriptions** tab. After a few seconds  of processing you should see that the Launchpad service status has changed to "**Subscribed**".
+5. After that, another popup confirms that your subscription is being created. Click **View Subscription** to navigate to the **Instances and Subscriptions** tab. After a few seconds of processing you should see that the service status has changed to "**Subscribed**".
 
 <p align="center">
   <img src="./images/tut1-3.png" width="95%" />
 </p>
 
-## Step 2: Add the Launchpad_Admin Role Collection to your User (PREPARED FOR TECHED)
+## Step 2: Add the Launchpad_Admin Role Collection to your User
 
-Adding the Launchpad_Admin Role Collection to a user allows them to access the Launchpad service admin application (also known as Site Manager). For users consuming the Site and it’s content later on the Launchpad_External_User role collcetion needs to be assigned.
+Adding the **Launchpad_Admin** Role Collection to a user allows them to access the admin application (also known as Site Manager). For users consuming the Site and it’s content later on the **Launchpad_External_User** role collcetion needs to be assigned.
 
 1. Navigate to **Security > Users** and find your user in the list. Click on it to open the user details.
 
@@ -50,13 +52,13 @@ Adding the Launchpad_Admin Role Collection to a user allows them to access the L
   <img src="./images/tut1-5.png" width="60%" />
 </p>
 
- > **NOTE:** You might need to wait a few minutes or perform a re-login to the SAP BTP Cockpit for the new role collection to become active. Before that you might face an Access Denied error if you try to access the Launchpad service application.
+ > **NOTE:** You might need to wait a few minutes or perform a re-login to the SAP BTP Cockpit for the new role collection to become active. Before that you might face an Access Denied error if you try to access the application.
 
 ## Step 3: Access the SAP Build Work Zone standard Site Manager
 
-The Site Manager is an admin application for creating and maintaining launchpad sites and content.
+The Site Manager is an admin application for creating and maintaining Sites and content.
 
-1. Navigate to **Services > Instances and Subscriptions** and find the **Launchpad Service** entry in the **Subscriptions** tab.  You can either directly click the small icon within the list entry or open the entries detail page to see the **Go to Application** button on the top right.
+1. Navigate to **Services > Instances and Subscriptions** and find the service entry in the **Subscriptions** tab.  You can either directly click the small icon within the list entry or open the entries detail page to see the **Go to Application** button on the top right.
 
 <p align="center">
   <img src="./images/tut1-6.png" width="95%" />
@@ -75,8 +77,8 @@ The Site Manager is an admin application for creating and maintaining launchpad 
 Within the Site Manager there are three main pages available:
 
 **1.  Site Directory:**
-    Here you will create & maintain different Launchpad sites and their settings.
-    
+    Here you will create & maintain different sites and their settings.
+
 **2.  Content Manager:**
     This is where the content is maintained; for e.g. you can see federated content from your SAP LoB solutions or you can manually create Apps (Tiles), Roles, Groups & Catalogs.
 

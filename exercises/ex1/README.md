@@ -135,7 +135,7 @@
 
 ## Troubleshooting
 
-1. You don’t see the Groups / Tiles on your Launchpad Site:
+1. You don’t see the Groups / Tiles on your Site:
     - It’s possible the Role Collection assignment to your user is not yet active. Make sure your User has the new, imported Role Collection assigned and log out / in again.
     - Maybe you missed one of the assignments of the imported Role to your Site
 
