@@ -14,7 +14,7 @@
 
 2. Search for “**Launchpad Service**”* and select the entry.
 
-> **NOTE:** The entry in the Service Marketplace might be available under the new name *SAP Build Work Zone, Standard*\* for you. The screenshots below do contain the former name.
+> **NOTE:** The entry in the Service Marketplace might be available under the new name *SAP Build Work Zone, Standard*\* for you. The screenshots below do contain the former name *SAP Launchpad Service*.
 
 3. In the **Application Plans** section choose the 3 dots for the standard plan and click **Create**.
 
