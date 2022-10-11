@@ -2,10 +2,10 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Build Work Zone standard instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 - SAP S/4HANA system connected to the SAP BTP Subaccount
-- Content got exposed from the SAP S/4HANA system
+- Content Exposure configured in the SAP S/4HANA system
 - Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
 - End-user needs to have a matching User on the SAP S/4HANA system with fitting authorizations for the exposed content.
 
@@ -17,7 +17,7 @@
     <img src="./images/tut3-1.png" width="100%" />
     </p>
 
-    You will see a list of all existing Content Channels available. In a blank SAP Build Work Zone standard instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
+    You will see a list of all existing Content Channels available. In a blank *SAP Build Work Zone, Standard*\* instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
 
 2. Create your own Content Channel by clicking the **+ New** button in the top right. In the upcoming popup you can define the technical details. Fill in the values as given below:
 
@@ -155,3 +155,7 @@
 
     Only apps flagged with the respective device type are visible.
     For example if an app is enabled for Desktop and Tablet, it won't show up in SAP Mobile Start on a phone but when using SAP Mobile Start with a tablet (for example an iPad).
+
+## Footnotes
+
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).

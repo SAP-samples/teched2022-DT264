@@ -3,7 +3,7 @@
 ## Prerequisites:
 
 - iOS Device with SAP Mobile Start
-- SAP BTP Subaccount with SAP Build Work Zone standard instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 - SAP S/4HANA system connected to the SAP BTP Subaccount
 - Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
@@ -165,3 +165,7 @@ In the Assignments section on the right, search for your newly created Voice Con
     <img src="./images/ead63b8043aa076fac6f6d64abbc94e8a7af74ea.png" width="30%" />
     <img src="./images/a591afa6e3b9df2e05dafbaafdf59da33ebf17f4.png" width="30%" />
 </p>
+
+## Footnotes
+
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).

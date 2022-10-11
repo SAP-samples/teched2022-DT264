@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Build Work Zone standard instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
 ## Step 1: Create the Native App Tile (example for SAP SuccessFactors)
@@ -103,3 +103,7 @@ The same way as the URL tile in the previous tutorial, you need to assign your N
     c.  In case you made use of one of the Deep link URL-Schemes for SAP SuccessFactors the respective screen should open.
 
     >**NOTE:** If you don’t have an SAP SuccessFactors user, on IOS there is the possibility to use the Demo Mode of the SAP SuccessFactors app. Once enabled you can try the Deep links from SAP Mobile Start
+
+## Footnotes
+
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).

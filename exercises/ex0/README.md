@@ -1,20 +1,20 @@
 
-# Access the SAP Build Work Zone standard
+# Access SAP Build Work Zone, Standard
 
 > **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-on Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-on Workshop outside of TechEd 2022.  
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Build Work Zone standard entitlement
+- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* entitlement
 - Admin access for this Subaccount
 
-## Step 1: Create SAP Build Work Zone standard instance
+## Step 1: Create an "SAP Build Work Zone, Standard"* instance
 
 1. Log into your SAP BTP Cockpit and select **Services > Service Marketplace**.
 
-2. Search for “**Launchpad Service**” and select the entry.
+2. Search for “**Launchpad Service**”* and select the entry.
 
-> **NOTE:** Due to the rebranding to *SAP Build Work Zone standard* the entry in the Service Marketplace might be available under the new name for you. 
+> **NOTE:** The entry in the Service Marketplace might be available under the new name *SAP Build Work Zone, Standard*\* for you. The screenshots below do contain the former name.
 
 3. In the **Application Plans** section choose the 3 dots for the standard plan and click **Create**.
 
@@ -54,7 +54,7 @@ Adding the **Launchpad_Admin** Role Collection to a user allows them to access t
 
  > **NOTE:** You might need to wait a few minutes or perform a re-login to the SAP BTP Cockpit for the new role collection to become active. Before that you might face an Access Denied error if you try to access the application.
 
-## Step 3: Access the SAP Build Work Zone standard Site Manager
+## Step 3: Access the "SAP Build Work Zone, Standard"* Site Manager
 
 The Site Manager is an admin application for creating and maintaining Sites and content.
 
@@ -84,3 +84,7 @@ Within the Site Manager there are three main pages available:
 
 **3.  Channel Manager:**
     Content Channels  are used to import content from different source systems; for e.g. SAP S/4HANA. Via this tab you can create & maintain Content Providers.
+
+## Footnotes
+
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).

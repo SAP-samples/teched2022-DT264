@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with SAP Build Work Zone standard instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
 ## Step 1: Create the News feed tile (example for SAP News)
@@ -131,3 +131,7 @@ To add SAP Mobile Start widgets to your home screen you can use the default iOS 
 
 2. Within SAP Mobile Start the News Feed Tile won’t load:
     - Likely one of the parameters is wrong. Make sure to enter them correctly and with respect to case sensitivity.
+
+## Footnotes
+
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
