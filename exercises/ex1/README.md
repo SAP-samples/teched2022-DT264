@@ -11,7 +11,7 @@
 
 ## Step 1: Create a Content Channel
 
-1. Navigate to the **Channel Manager** tab within Site Manager
+1. Navigate to the **Channel Manager** tab within [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/).
 
     <p align="center">
     <img src="./images/tut3-1.png" width="100%" />

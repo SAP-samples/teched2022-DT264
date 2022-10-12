@@ -38,6 +38,14 @@ The requirements to follow the exercises in this repository are:
 - [Exercise 4 - Create News Feed Tile for SAP Mobile Start](exercises/ex4/)
 - [Exercise 5 - Configure Voice Commands for SAP Mobile Start on Apple iOS](exercises/ex5/)
 
+## System Access
+
+The following list point the used systems for the Hands-on Workshop of SAP TechEd 2022.
+Outside of the Workshop, separate systems might be required to execute the exercises.
+
+- [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/)
+- S/4 HANA System HE4
+
 ## Footnotes
 
 \* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
