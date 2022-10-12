@@ -81,6 +81,8 @@ you need to enter the following parameter names and values:
 
 > **NOTE:** For the SAP TechEd 2022 Hands-on Session we are using a separate destination here for the data access. Usually it is the same as selected under the **Properties** section.
 
+6. Don't forget to save your app
+
 It should look like this:
 
 <p align="center">
@@ -165,6 +167,12 @@ In the Assignments section on the right, search for your newly created Voice Con
     <img src="./images/ead63b8043aa076fac6f6d64abbc94e8a7af74ea.png" width="30%" />
     <img src="./images/a591afa6e3b9df2e05dafbaafdf59da33ebf17f4.png" width="30%" />
 </p>
+
+## Congrats
+
+Wow, looks amazing! You have completed the last exercise. 🥳
+
+You can now navigate to the [Overview](../).
 
 ## Footnotes
 

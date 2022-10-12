@@ -44,7 +44,7 @@
 
     |Name|Value|Description|
     | ----------------- | ------ | ------------------------------------ |
-    | Semantic Object   | `app`    | Semantic object parameter for Intent navigation. Value does not matter in this context. |
+    | Semantic Object   | `url`    | Semantic object parameter for Intent navigation. Value does not matter in this context. |
     | Action            | `launch` | Action parameter for Intent navigation. Value does not matter in this context. |
 
     >**NOTE**: These values are required for apps that make use of intent-based navigation and not relevant for this URL tile. However, they need to be entered as they are mandatory fields.
@@ -90,7 +90,7 @@ The same way as the URL tile in the previous tutorial, you need to assign your N
 
 ## Step 3: Access your Native App tile on SAP Mobile Start
 
-1. Onboard your Site to SAP Mobile Start to see the new tile. If you’re already connected to your Site in SAP Mobile Start, you can perform a Pull to Refresh. After that the SAP SuccessFactors tile should show up:
+1. Open SAP Mobile Start again, navigate to the "Applications" tab and perform a Pull to Refresh. After that the SAP SuccessFactors tile should show up. If you see the Welcome Screen with a "Scan" Button, onboard your Site to SAP Mobile Start to see the new tile.
 
     <p align="center">
     <img src="./images/tut4-7.png" width="70%" />
@@ -103,6 +103,14 @@ The same way as the URL tile in the previous tutorial, you need to assign your N
     c.  In case you made use of one of the Deep link URL-Schemes for SAP SuccessFactors the respective screen should open.
 
     >**NOTE:** If you don’t have an SAP SuccessFactors user, on IOS there is the possibility to use the Demo Mode of the SAP SuccessFactors app. Once enabled you can try the Deep links from SAP Mobile Start
+
+## Congrats
+
+I have the feeling, you are becoming a SAP Mobile Start professional!
+You successfully finished Exercise 3. 🥳
+
+You can now navigate to the [Overview](../).  
+If your instructor already told you to continue with [Exercise 4](../ex4/), you navigate there using [this link](../ex4/).
 
 ## Footnotes
 

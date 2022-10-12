@@ -80,7 +80,7 @@
       <img src="./images/tut2-6.png" width="100%" />
     </p>
 
-4. Make sure to Save your role via **Save**. Once your role is saved it will be created as a Role Collection in the SAP BTP Cockpit.
+4. Make sure to Save your role via **Save**.
 
 > **NOTE:** For the SAP TechEd 2022 Hands-on Session, the role has already been assigned to you. When executing this tutorial outside of TechEd, you need to assign the role to the applicable users in the SAP BTP Cockpit (like in the previous exercise).
   
@@ -129,7 +129,28 @@ Use the below steps to assign your app to a **Group**:
     <img src="./images/tut2-16.png" width="60%" />
     </p>
 
-### Summary on Item relationship
+## Step 5: Find the app in SAP Mobile Start
+
+1. Open the SAP Mobile Start again and navigate to the Application Tab ("Apps")
+
+2. Perform a refresh my pulling down the scoll section
+
+3. You should be able to see the Group with the create app
+
+> **NOTE:** You might need to scroll on the Application Tab to find your Group besides the imported ones.
+
+<p align="center">
+<img src="./images/tut2-18.png" width="60%" />
+</p>
+
+## Congrats
+
+Nice Job! You completed Exercise 2. 🥳
+
+You can now navigate to the [Overview](../).  
+If your instructor already told you to continue with [Exercise 3](../ex3/), you navigate there using [this link](../ex3/).
+
+## Summary on Item relationship
 
 It might be confusing to understand how the created items interact with each other. See the below diagram for additional clarification of the assignments.
 

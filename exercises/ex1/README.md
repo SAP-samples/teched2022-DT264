@@ -11,6 +11,10 @@
 
 ## Step 1: Create a Content Channel
 
+1. Open the [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/) in your browser.
+
+> **NOTE:** When using the assigned users for the SAP TechEd 2022 Hands-on Session, you might be prompted to change the initial password upon your first logon. Choose an arbitrary password and remember it throughout the session.
+
 1. Navigate to the **Channel Manager** tab within [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/).
 
     <p align="center">
@@ -18,6 +22,8 @@
     </p>
 
     You will see a list of all existing Content Channels available. In a blank *SAP Build Work Zone, Standard*\* instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
+
+    > **NOTE:** You might see Content Channels of other participants. You can ignore them and work with your assigned user number.
 
 2. Create your own Content Channel by clicking the **+ New** button in the top right. In the upcoming popup you can define the technical details. Fill in the values as given below:
 
@@ -53,27 +59,11 @@
     <img src="./images/tut3-4.png" width="100%" />
     </p>
 
-3. The imported SAP S/4HANA Roles will be created as Role Collections in the SAP BTP Cockpit. To see the content within your Site, you need to assign the Role Collection to your User in the BTP Cockpit.
+3. The imported SAP S/4HANA Roles will be created as Role Collections in the SAP BTP Cockpit. To see the content within your Site, the Role Collection needs to be assigned to your User.
 
-    > **NOTE:** For the SAP TechEd 2022 Hands-on Session, the instructor can do the assignment for you. Please inform the instructor once you are ready.
+    > **NOTE:** For the SAP TechEd 2022 Hands-on Session, the instructor will do the assignment for you. Please inform the instructor once you are ready.
 
-    Outside of the SAP TechEd 2022 Hands-on Session Navigate to **Security > Users**, search for your User and press the Assign Role Collection button.
-
-    > **NOTE:** The term/concept of Role in Site Manager maps to the term/concept of Role Collection in SAP BTP cockpit.
-
-    <p align="center">
-    <img src="./images/tut3-5.png" width="100%" />
-    </p>
-
-    In the Popup search for the ID of your Content Channel e.g. `channel_##` and select the imported role to assign it.
-
-    <p align="center">
-    <img src="./images/tut3-6.png" width="50%" />
-    </p>
-
-    You might have to logout / login again for the new Role assignment to become active for your user.
-
-    >**NOTE:** It’s also possible to archive this the other way around, by adding your User to the Role Collection. For that navigate to **Security > Role Collections**, find your imported Role Collection by searching for your Channel ID (`channel_##`) and click on it. Press the Edit button on the top right and enter your user info in the **Users** section.
+    Outside of the SAP TechEd 2022 Hands-on Session you need to do that on the SAP BTP Cockpit. See [Troubleshooting - Role Assignment on BTP](#role-assignment-on-btp) for details.
 
 ## Step 3: Create Site and assign your synced Role to it
 
@@ -83,7 +73,7 @@
     <img src="./images/tut2-12.png" width="100%" />
     </p>
 
-2. In the Popup choose the name of your Site and press **Create**. (Make sure to include your number ## here as well)
+2. In the Popup type the name of your Site and press **Create**. (Make sure to include your number ## here as well, to easily find it again)
 
     <p align="center">
     <img src="./images/tut2-13.png" width="100%" />
@@ -98,7 +88,9 @@
     <img src="./images/tut2-14.png" width="100%" />
     </p>
 
-5. **Save** your Site.
+5. Search now for  `Role of ##` (*use your number instead of ##*) as a search term. Locate your Role and add it as well with the **+** button.
+
+6. **Save** your Site with both roles added
 
 ## Step 3: Access your Site on SAP Mobile Start
 
@@ -133,7 +125,18 @@
 
     You will be prompted to login with your user. After successful authentication, you will be able to find your content and can start using it.
 
+> **NOTE:** Make sure to scan the registration QR within the SAP Mobile Start app and **not** with the regular camera app. Otherwise it won't be recognized.
+
+## Congrats
+
+Awesome! You completed Exercise 1. 🥳
+
+You can now navigate to the [Overview](../).  
+If your instructor already told you to continue with [Exercise 2](../ex2/), you navigate there using [this link](../ex2/).
+
 ## Troubleshooting
+
+### General
 
 1. You don’t see the Groups / Tiles on your Site:
     - It’s possible the Role Collection assignment to your user is not yet active. Make sure your User has the new, imported Role Collection assigned and log out / in again.
@@ -155,6 +158,26 @@
 
     Only apps flagged with the respective device type are visible.
     For example if an app is enabled for Desktop and Tablet, it won't show up in SAP Mobile Start on a phone but when using SAP Mobile Start with a tablet (for example an iPad).
+
+### Role Assignment on BTP
+
+Navigate to **Security > Users**, search for your User and press the Assign Role Collection button.
+
+> **NOTE:** The term/concept of Role in Site Manager maps to the term/concept of Role Collection in SAP BTP cockpit.
+
+<p align="center">
+<img src="./images/tut3-5.png" width="100%" />
+</p>
+
+In the Popup search for the ID of your Content Channel e.g. `channel_##` and select the imported role to assign it.
+
+<p align="center">
+<img src="./images/tut3-6.png" width="50%" />
+</p>
+
+You might have to logout / login again for the new Role assignment to become active for your user.
+
+>**NOTE:** It’s also possible to archive this the other way around, by adding your User to the Role Collection. For that navigate to **Security > Role Collections**, find your imported Role Collection by searching for your Channel ID (`channel_##`) and click on it. Press the Edit button on the top right and enter your user info in the **Users** section.
 
 ## Footnotes
 

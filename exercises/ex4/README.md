@@ -119,9 +119,18 @@ They could look like this:
   <img src="./images/tut5-8.png" width="70%" />
   </p>
 
-To add SAP Mobile Start widgets to your home screen you can use the default iOS / Android widget functionality. Usually, you need to do a long press on an empty space of your home screen and select a + Icon or an Add Widget button. Then find SAP Mobile Start in the list of available options and select the Widget type you want to add. After that you will need to define the business app or a news feed as source for the specific Widget. On iOS one of the available sources is selected by default – you can edit it via a long press on the widget and clicking “Edit Widget”.
+To add SAP Mobile Start widgets to your home screen you can use the default iOS / Android widget functionality. Usually, you need to do a long press on an empty space of your home screen and select a + Icon or an Add Widget button. Then find SAP Mobile Start in the list of available options and select the Widget type you want to add. After that you will need to define the business app or a news feed as source for the specific Widget.
+
+On iOS one of the available sources is selected by default – you can edit it via a long press on the widget and clicking “Edit Widget”.
 
 >**NOTE:** The use of Widgets allowed/prohibited by the landscape admins. There’s a flag available for that in SAP Mobile Services. You can find more info on Widgets in this [blogpost](https://blogs.sap.com/2021/09/03/sap-mobile-start-use-the-business-info-widget-to-monitor-your-business-directly-from-home-screen/). We have already enabled this in the tutorial landscape so that you can add a widget to your device.
+
+## Congrats
+
+Very nice! You have completed Exercise 4. 🥳
+
+You can now navigate to the [Overview](../).  
+If your instructor already told you to continue with [Exercise 5](../ex5/), you navigate there using [this link](../ex5/).
 
 ## Troubleshooting
 
