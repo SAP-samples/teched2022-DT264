@@ -6,7 +6,9 @@
 
 This repository contains the material for the SAP TechEd 2022 session called DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA.
 
-<p align="center"><img src="./images/sap-mobile-start.jpeg" width="65%" /></p>
+<p align="center">
+    <img src="./images/sap-mobile-start.png" width="100%" />
+</p>
 
 ## Overview
 
