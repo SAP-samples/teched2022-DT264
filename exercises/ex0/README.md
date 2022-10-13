@@ -1,7 +1,7 @@
 
 # Access SAP Build Work Zone, Standard
 
-> **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-on Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-on Workshop outside of TechEd 2022.  
+> **NOTE:** The steps of this exercise was already executed for your user for the SAP TechEd 2022 Hands-on Session. Please continue with [Exercise 1](../ex1) as an in-person participant. You can refer to this exercise if you are doing the Hands-on Workshop outside of SAP TechEd 2022.  
 
 ## Prerequisites:
 

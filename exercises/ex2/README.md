@@ -64,7 +64,7 @@
 
 ## Step 2: Find your own Role and assign your App to it
 
-> **NOTE:** For the SAP TechEd 2022 Hands-on Session, a role has already been created and assigned to you. You just need to assign your freshly created App to your role. When executing this tutorial outside of TechEd, it might be required to create a new Role or reuse an existing one.
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session, a role has already been created and assigned to you. You just need to assign your freshly created App to your role. When executing this tutorial outside of SAP TechEd, it might be required to create a new Role or reuse an existing one.
 
 1. Back in the **Content Manager** search for your number to locate the Role that has been created for you. (*Make sure to use your number ## for identification*)
 
@@ -82,7 +82,7 @@
 
 4. Make sure to Save your role via **Save**.
 
-> **NOTE:** For the SAP TechEd 2022 Hands-on Session, the role has already been assigned to you. When executing this tutorial outside of TechEd, you need to assign the role to the applicable users in the SAP BTP Cockpit (like in the previous exercise).
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session, the role has already been assigned to you. When executing this tutorial outside of SAP TechEd, you need to assign the role to the applicable users in the SAP BTP Cockpit (like in the previous exercise).
   
 ## Step 3: Create your own Group and assign your App to it
 
