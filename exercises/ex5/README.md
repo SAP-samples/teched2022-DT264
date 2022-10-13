@@ -73,15 +73,16 @@ you need to enter the following parameter names and values:
 
     | Name | Value | Description |
     | ----------------- | ------------------------------- | ------------------------------------ |
+    | `mobilestart.tile.hidden` | `false` | Defines whether this tile shall be hidden from the in-app screens of SAP Mobile Start. Can be set to true if you don't want this tile to show in SAP Mobile Start but still want to use it as Voice configuration. |
     | `mobilestart.voice.active` | `true` | Activates this Voice Configuration for SAP Mobile Start |
     | `mobilestart.voice.system` | `s4_fin` | Defines the runtime destination of the system from which the data is being accessed. |
     | `mobilestart.voice.currency` | `USD` | The currency in which the financial data is being requested |
     | `mobilestart.voice.intentId` | `com.sap.mobile.start.overduereceivables`| Defines to which voice command this configuration belongs |
-    | `mobilestart.tile.hidden` | `false` | Defines whether this tile shall be hidden from the in-app screens of SAP Mobile Start. Can be set to true if you don't want this tile to show in SAP Mobile Start but still want to use it as Voice configuration. |
+    | `mobilestart.voice.visible.ios` | `true` | This property is only required for SAP Mobile Start version 1.3. You can ignore this if you are using version 1.4 or newer. See the [documentation](https://help.sap.com/docs/SAP_MOBILE_START/07837beb26804d719fbc7efa3f634ee0/920220cdff0043b8a5911aa53dacdb69.html?locale=en-US) for more info |
 
 > **NOTE:** For the SAP TechEd 2022 Hands-on Session we are using a separate destination here for the data access. Usually it is the same as selected under the **Properties** section.
 
-6. Don't forget to save your app
+1. Don't forget to save your app
 
 It should look like this:
 
