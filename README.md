@@ -25,7 +25,7 @@ The requirements to follow the exercises in this repository are:
 - SAP BTP Subaccount with SAP Build Work Zone, Standard* entitlement
 - Admin access for this subaccount
 - SAP S/4HANA system connected to the SAP BTP Subaccount
-- Content Exposure set up for the SAP S/4HANA system
+- [Content Exposure](https://help.sap.com/docs/ABAP_PLATFORM_NEW/a7b390faab1140c087b8926571e942b7/360d55bcdea041c3b5cd39680e230398.html?locale=en-US) set up for the SAP S/4HANA system
 - Roles assigned to the user in SAP S/4HANA matching the exposed content
 - A mobile phone (iOS or Android) capable of running SAP Mobile Start
 

@@ -5,7 +5,7 @@
 - SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 - SAP S/4HANA system connected to the SAP BTP Subaccount
-- Content Exposure configured in the SAP S/4HANA system
+- [Content Exposure](https://help.sap.com/docs/ABAP_PLATFORM_NEW/a7b390faab1140c087b8926571e942b7/360d55bcdea041c3b5cd39680e230398.html?locale=en-US) configured in the SAP S/4HANA system
 - Destinations pointing to this SAP S/4HANA system for both Run-Time and Design-Time
 - End-user needs to have a matching User on the SAP S/4HANA system with fitting authorizations for the exposed content.
 
