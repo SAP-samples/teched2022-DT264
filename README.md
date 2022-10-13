@@ -63,6 +63,9 @@ You can download SAP Mobile Start for iOS and Android in the respective App Stor
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 Please open a regular support ticket for issues concerning **SAP Mobile Start** itself.
 
+- [Documentation for SAP Mobile Start (iOS) on SAP Help](https://help.sap.com/docs/SAP_MOBILE_START?locale=en-US)
+- [Documentation for SAP Mobile Start (Android) on SAP Help](https://help.sap.com/docs/SAP_MOBILE_START_ANDROID?locale=en-US)
+
 ## License
 
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
