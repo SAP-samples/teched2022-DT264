@@ -29,7 +29,7 @@
 
     |Name|Value|Description|
     | ----------------------- | ----------------------------------------------------- | ------------------------------------ |
-    | Title                   | `Content Channel of ##` (*use your number instead of ##*) | Name / Title of Content Channel – often similar to the name of the provider system |
+    | Title                   | `Channel ##` (*use your number instead of ##*) | Name / Title of Content Channel – often similar to the name of the provider system |
     | Description             | -                                                       | Optional field for further description |
     | ID                      | `Channel_##` (*use your number instead of ##*)            | ID of Content Channel - gets auto filled based on Title (max 20 characters) |
     | Design-Time Destination | `he4dt`                                         | Design-Time destination of provider system - based on configured Destinations in the Subaccount|
