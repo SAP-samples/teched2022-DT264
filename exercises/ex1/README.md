@@ -90,6 +90,10 @@
 
 5. Search now for  `Role of ##` (*use your number instead of ##*) as a search term. Locate your Role and add it as well with the **+** button.
 
+    <p align="center">
+    <img src="./images/tut2-16.png" width="100%" />
+    </p>
+
 6. **Save** your Site with both roles added
 
 ## Step 3: Access your Site on SAP Mobile Start
@@ -125,8 +129,9 @@
 
     You will be prompted to login with your user. After successful authentication, you will be able to find your content and can start using it.
 
-> **NOTE:** Make sure to scan the registration QR within the SAP Mobile Start app and **not** with the regular camera app. Otherwise it won't be recognized.
+> **NOTE:** It is recommended to have the checkbox "Remember me" checked when logging in with *SAP Identity Authentication* as Identity Provider.
 
+> **NOTE:** Make sure to scan the registration QR within the SAP Mobile Start app and **not** with the regular camera app. Otherwise it won't be recognized.
 ## Congrats
 
 Awesome! You completed Exercise 1. 🥳

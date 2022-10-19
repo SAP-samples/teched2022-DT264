@@ -57,6 +57,8 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
         <img src="./images/3acb52638d4fdedf09eff77fd4951d57160ec1f3.png" width="95%" />
     </p>
 
+> **NOTE:** The values maintained above are dependent on the desired SAP UI5 app to be launched. The principle is called **Intent Based Navigation** and offers to specify exactly which SAP Fiori / SAP UI5 App is being openend including (optional) initial parameters. Please consult the application documenatation or the application developer for further information regarding the specific values for a certain app target.
+
 4. Switch to the **Visualization** tab.
 Here you can define the appearance of your Overdue Receivables Tile for the desktop and define the parameters relevant for the SAP Mobile Start Voice command.
 See the fields and values for the appearance below:
@@ -82,7 +84,7 @@ you need to enter the following parameter names and values:
 
 > **NOTE:** For the SAP TechEd 2022 Hands-on Session we are using a separate destination here for the data access. Usually it is the same as selected under the **Properties** section.
 
-1. Don't forget to save your app
+6. Don't forget to save your app
 
 It should look like this:
 
@@ -123,11 +125,6 @@ In the Assignments section on the right, search for your newly created Voice Con
     should be displayed now in the list. Select **Overdue Receivables**
     for our example.
 
-<p align="center">
-    <img src="./images/072bf04c9282a0ed84e72f9bdeeb55a98e80ab20.png" width="30%" />
-    <img src="./images/60373354a5b0d4f1c6ce3bd3be75626fc81efcca.png" width="30%" />
-</p>
-
 4. If you want, you can specify a fixed **Time Period** that shall be
     queried using the variable field displayed in the Overdue
     Receivables action. You can keep it **empty** or select **Ask every time** to select the desired Time Period during execution.
@@ -136,11 +133,15 @@ In the Assignments section on the right, search for your newly created Voice Con
     screen
 
 <p align="center">
+    <img src="./images/072bf04c9282a0ed84e72f9bdeeb55a98e80ab20.png" width="30%" />
+    <img src="./images/60373354a5b0d4f1c6ce3bd3be75626fc81efcca.png" width="30%" />
+</p>
+<p align="center">
     <img src="./images/3e114a5d403f3ca8235c3287e46906be25e60fa3.png" width="30%" />
     <img src="./images/0c36f6af97c73a9a74feb8d640b7eef86512de28.png" width="30%" />
 </p>
 
-## Step 3: Use the Voice Command
+## Step 4: Use the Voice Command
 
 1. You can invoke the command using multiple approaches. One option is
     to hit the shortcut tile within the Shortcuts app. This will start

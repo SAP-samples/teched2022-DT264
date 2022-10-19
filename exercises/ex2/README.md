@@ -80,6 +80,8 @@
       <img src="./images/tut2-6.png" width="100%" />
     </p>
 
+> **NOTE:** Please make sure that your role has been added to your Site like described in Exercise 1 for its apps to appear.
+
 4. Make sure to Save your role via **Save**.
 
 > **NOTE:** For the SAP TechEd 2022 Hands-on Session, the role has already been assigned to you. When executing this tutorial outside of SAP TechEd, you need to assign the role to the applicable users in the SAP BTP Cockpit (like in the previous exercise).
