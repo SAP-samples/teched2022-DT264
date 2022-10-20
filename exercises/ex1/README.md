@@ -125,9 +125,9 @@
     <img src="./images/download.png" width="50%" />
     </p>
 
-5. After opening the SAP Mobile Start for the first time, press the **Scan** button and can your Site's QR code.
+5. After opening the SAP Mobile Start for the first time, press the **Scan** button and scan your Site's QR code.
 
-    You will be prompted to login with your user. After successful authentication, you will be able to find your content and can start using it.
+    You will be prompted to login with your user credentials. After successful authentication, you will be able to find your content and can start using it.
 
 > **NOTE:** It is recommended to have the checkbox "Keep me signed in" (also known as "Remember me") checked when logging in with *SAP Identity Authentication* as Identity Provider.
 
