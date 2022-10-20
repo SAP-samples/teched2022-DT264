@@ -168,7 +168,7 @@ If your instructor already told you to continue with [Exercise 2](../ex2/), you 
 
 ### Role Assignment on BTP
 
-> **NOTE:** This instruction is for reference only. Only your instructor who has the relevant admin rights are able to perform this step.
+> **NOTE:** This instruction is for reference only. Only your instructor who has the relevant admin rights can perform this step.
 > 
 Navigate to **Security > Users**, search for your User and press the Assign Role Collection button.
 
