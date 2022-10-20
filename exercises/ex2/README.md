@@ -23,7 +23,7 @@
     | Open App          | Select **In a new tab**                               |Defines whether an app is opened in place within the UI5 shell or in a new browser tab. For URL Tiles we use In a new tab. |
     | System            | No System                                             |Field to define the connected backend system an app is running on. In this case no system is used / needed.|
     | App UI Technology | URL                                                   |Defines type of App. In this case a tile pointing to an URL. |
-    | URL               | `https://sap.com`          |URL the tile should open|
+    | URL               | `https://sap.com`          |URL to be launched from the tile|
 
     It should look like this:
     <p align="center">
