@@ -186,7 +186,7 @@ In the Popup search for the ID of your Content Channel e.g. `channel_##` and sel
 
 You might have to logout / login again for the new Role assignment to become active for your user.
 
->**NOTE:** It’s also possible to archive this the other way around, by adding your User to the Role Collection. For that navigate to **Security > Role Collections**, find your imported Role Collection by searching for your Channel ID (`channel_##`) and click on it. Press the Edit button on the top right and enter your user info in the **Users** section.
+>**NOTE:** It’s also possible to achieve this the other way around, by adding your User to the Role Collection. For that navigate to **Security > Role Collections**, find your imported Role Collection by searching for your Channel ID (`channel_##`) and click on it. Press the Edit button on the top right and enter your user info in the **Users** section.
 
 ## Footnotes
 
