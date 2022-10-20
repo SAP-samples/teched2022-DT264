@@ -13,7 +13,7 @@
 
 1. Open the [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/) in your browser.
 
-> **NOTE:** When using the assigned users for the SAP TechEd 2022 Hands-on Session, you might be prompted to change the initial password upon your first logon. Choose an arbitrary password and remember it throughout the session.
+> **NOTE:** When using the assigned users for the SAP TechEd 2022 Hands-on Session, you might be prompted to change the initial password upon your first logon. Choose an arbitrary password and remember it for the duration of this training session.
 
 1. Navigate to the **Channel Manager** tab within [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/).
 
