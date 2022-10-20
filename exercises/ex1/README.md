@@ -158,6 +158,8 @@ If your instructor already told you to continue with [Exercise 2](../ex2/), you 
     - Connection between your Subaccount & the SAP S/4HANA system is not configured properly
     - There might be no matching backend user to the IAS/BTP User
     - The Backend user is missing the authorization to work with the exported content
+    
+    If you face this issue, talk to your instructor as these steps were carried out by them as part of the system set up for the training.
 
 3. Some apps visible in the web are not displayed in SAP Mobile Start
 
