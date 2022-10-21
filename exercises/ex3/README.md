@@ -20,9 +20,9 @@
     | Title             | `SAP SuccessFactors ##` <br /> (*use your number instead of ##*)                 | Title you will see on top of the tile |
     | Description       | `SAP SuccessFactors native app tile ##` <br /> (*use your number instead of ##*) |Additional info to describe your app. This is shown in the Site Managers app list.|
     | System            | No System                                             | Field to define the connected backend system an app is running on. In this case no system is used / needed.|
-    | App UI Technology | Native IOS or Native Android (based on your device)   | Defines type of App. In this case a native app tile for SAP Mobile Start. |
+    | App UI Technology | Native iOS or Native Android (based on your device)   | Defines type of App. In this case a native app tile for SAP Mobile Start. |
     | URL to Launch App | bizx://?urlType=deeplink&deeplinkType=launchApp       | URL-Scheme that allows opening an app, if it’s installed on the device. (The native App is expected to implement an URL-Scheme so that it can be launched by other apps.)  |
-    | URL to Install App| For IOS: <br /> https://apps.apple.com/de/app/successfactors/id426562526 <br /> <br />   For Android: <br /> https://play.google.com/store/apps/details?id=com.successfactors.successfactors&hl=en&gl=US | Link to Apple App Store / Google Play Store based on selected UI Technology. In case the app is not installed you will get navigated to the relevant store mentioned in this field.  |
+    | URL to Install App| For iOS: <br /> https://apps.apple.com/de/app/successfactors/id426562526 <br /> <br />   For Android: <br /> https://play.google.com/store/apps/details?id=com.successfactors.successfactors&hl=en&gl=US | Link to Apple App Store / Google Play Store based on selected UI Technology. In case the app is not installed you will get navigated to the relevant store mentioned in this field.  |
 
     **Note on Deeplinks:**
     For now, the used URL-Scheme (bizx://?urlType=deeplink&deeplinkType=launchApp) will just open the native app. With Deeplinks for SAP SuccessFactors it’s possible to directly navigate to specific screens within the native app. To archive this, you can try to replace the `launchApp` parameter with the following values:
@@ -44,7 +44,7 @@
 
     |Name|Value|Description|
     | ----------------- | ------ | ------------------------------------ |
-    | Semantic Object   | `url`    | Semantic object parameter for Intent navigation. Value does not matter in this context. |
+    | Semantic Object   | `app`    | Semantic object parameter for Intent navigation. Value does not matter in this context. |
     | Action            | `launch` | Action parameter for Intent navigation. Value does not matter in this context. |
 
     >**NOTE**: These values are required for apps that make use of intent-based navigation and not relevant for this URL tile. However, they need to be entered as they are mandatory fields.
@@ -102,7 +102,7 @@ The same way as the URL tile in the previous tutorial, you need to assign your N
     b.  or open the SAP SuccessFactors native app if it’s installed on your device. \
     c.  In case you made use of one of the Deep link URL-Schemes for SAP SuccessFactors the respective screen should open.
 
-    >**NOTE:** If you don’t have an SAP SuccessFactors user, on IOS there is the possibility to use the Demo Mode of the SAP SuccessFactors app. Once enabled you can try the Deep links from SAP Mobile Start
+    >**NOTE:** If you don’t have an SAP SuccessFactors user, on iOS there is the possibility to use the Demo Mode of the SAP SuccessFactors app. Once enabled you can try the Deep links from SAP Mobile Start
 
 ## Congrats
 

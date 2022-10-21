@@ -48,10 +48,9 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
     | Semantic Object   | `OverdueReceivablesKPI`    | Semantic object parameter for Intent navigation. |
     | Action            | `analyzeSBKPIOverdueReceivables` | Action parameter for Intent navigation. |
 
-    |Name|Value|Description|
+    |Parameter Name| Parameter Default Value |Description|
     | ----------------- | ------ | ------------------------------------ |
-    | Parameter Name   | `EvaluationId`    | Parameter name passed to the SAP UI5 app. |
-    | Parameter Default Value | `.SAP.FI.AR.OVERDUERECEIVABLES.TODAY` | Default value passed for the previously specified parameter name. |
+    | `EvaluationId`  |  `.SAP.FI.AR.OVERDUERECEIVABLES.TODAY` | Parameter passed to the SAP UI5 app. |
 
     <p align="center">
         <img src="./images/3acb52638d4fdedf09eff77fd4951d57160ec1f3.png" width="95%" />
@@ -59,7 +58,7 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
 
 > **NOTE:** The values maintained above are dependent on the desired SAP UI5 app to be launched. The principle is called **Intent Based Navigation** and offers to specify exactly which SAP Fiori / SAP UI5 App is being openend including (optional) initial parameters. Please consult the application documenatation or the application developer for further information regarding the specific values for a certain app target.
 
-4. Switch to the **Visualization** tab.
+1. Switch to the **Visualization** tab.
 Here you can define the appearance of your Overdue Receivables Tile for the desktop and define the parameters relevant for the SAP Mobile Start Voice command.
 See the fields and values for the appearance below:
 
@@ -117,7 +116,7 @@ In the Assignments section on the right, search for your newly created Voice Con
     Shortcuts app and click on the **+** on the top right to define a
     new shortcut. Choose **Overdue Receivables** as name.
 
-    > **NOTE:**: The chosen name will also be the trigger word(s) to start
+    > **NOTE:** The chosen name will also be the trigger word(s) to start
     the voice command using Apple Siri. You can also choose a different
     name depending on your preferences.
 

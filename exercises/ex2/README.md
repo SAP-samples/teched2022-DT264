@@ -135,7 +135,7 @@ Use the below steps to assign your app to a **Group**:
 
 1. Open the SAP Mobile Start again and navigate to the Application Tab ("Apps")
 
-2. Perform a refresh my pulling down the scoll section
+2. Perform a refresh by pulling down the scoll section
 
 3. You should be able to see the Group with the create app
 
