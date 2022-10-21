@@ -48,7 +48,9 @@ For other devices than the iOS App of SAP Mobile Start, the app will be availabl
     | Semantic Object   | `OverdueReceivablesKPI`    | Semantic object parameter for Intent navigation. |
     | Action            | `analyzeSBKPIOverdueReceivables` | Action parameter for Intent navigation. |
 
-    |Parameter Name| Parameter Default Value |Description|
+    **Parameters**
+
+    | Name| Default Value |Description|
     | ----------------- | ------ | ------------------------------------ |
     | `EvaluationId`  |  `.SAP.FI.AR.OVERDUERECEIVABLES.TODAY` | Parameter passed to the SAP UI5 app. |
 
