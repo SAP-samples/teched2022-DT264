@@ -132,6 +132,7 @@
 > **NOTE:** It is recommended to have the checkbox "Keep me signed in" (also known as "Remember me") checked when logging in with *SAP Identity Authentication* as Identity Provider.
 
 > **NOTE:** Make sure to scan the registration QR within the SAP Mobile Start app and **not** with the regular camera app. Otherwise it won't be recognized.
+
 ## Congrats
 
 Awesome! You completed Exercise 1. 🥳

@@ -46,11 +46,17 @@ The following list point the used systems for the Hands-on Workshop of SAP TechE
 Outside of the Workshop, separate systems might be required to execute the exercises.
 
 - [Site Manager](https://dt264-14bds723.dt.launchpad.cfapps.us10.hana.ondemand.com/)
-- S/4 HANA System HE4
+- S/4HANA System HE4
 
 ## Footnotes
 
 \* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+
+## Further resources
+
+- [SAP Mobile Start (SAP Community)](https://community.sap.com/topics/mobile-experience/start)
+- [SAP S/4HANA - Content Exposure](https://blogs.sap.com/2021/05/26/sap-s-4hana-content-exposure-and-sap-fiori-launchpad-content-manager-enhancements-now-also-available-with-sap-fiori-front-end-server-6.0/)
+- [Identity Provisioning (Documentation)](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1c231333f1d24ae0a8e60ce688c4f692.html)
 
 ## Download SAP Mobile Start
 
