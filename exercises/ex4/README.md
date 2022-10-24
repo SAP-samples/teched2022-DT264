@@ -72,7 +72,7 @@
 
 5. Make sure to Save your app.
 
-## Step 2: Add the Native App tile to your Site
+## Step 2: Add the News tile to your Site
 
 With the same procedure as in previous tutorials, you need to assign your News feed tile to your Group & Role. Otherwise, it won’t be accessible for you on the Site and within SAP Mobile Start.
 
@@ -92,7 +92,7 @@ With the same procedure as in previous tutorials, you need to assign your News f
 
     Make sure to **Save**, once you are done.
 
-## Step 3: Access your Native App tile on SAP Mobile Start
+## Step 3: Access your News tile on SAP Mobile Start
 
 1. Onboard your Site to SAP Mobile Start to see the new tile. If you’re already connected to your Site in SAP Mobile Start, you can perform a Pull to Refresh. After that the SAP News tile should show up
 
