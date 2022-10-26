@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, standard edition*\* instance enabled
 - Admin access for this subaccount
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
@@ -171,4 +171,4 @@ It might be confusing to understand how the created items interact with each oth
 
 ## Footnotes
 
-\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
