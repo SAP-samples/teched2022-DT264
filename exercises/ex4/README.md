@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, standard edition*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
 ## Step 1: Create the News feed tile (example for SAP News)
@@ -143,4 +143,4 @@ If your instructor already told you to continue with [Exercise 5](../ex5/), you 
 
 ## Footnotes
 
-\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
