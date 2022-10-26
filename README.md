@@ -15,14 +15,14 @@ This repository contains the material for the SAP TechEd 2022 session called DT2
 The SAP Mobile Start app is your native entry point to SAP’s mobile universe.
 Discover how to set up and configure SAP Mobile Start with SAP S/4HANA and how to add your native apps. You will understand all the prerequisites and necessary steps.
 
-> **NOTE:** *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022). Please be aware that some screenshots or systems in this Hands-on material might still contain the former name *SAP Launchpad Service*.
+> **NOTE:** *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022). Please be aware that some screenshots or systems in this Hands-on material might still contain the former name *SAP Launchpad Service*.
 > <p align="center"><img src="./images/sap-build-work-zone.png" width="65%" /></p>
 
 ## Requirements
 
 The requirements to follow the exercises in this repository are:
 
-- SAP BTP Subaccount with SAP Build Work Zone, Standard* entitlement
+- SAP BTP Subaccount with SAP Build Work Zone, standard edition* entitlement
 - Admin access for this subaccount
 - SAP S/4HANA system connected to the SAP BTP Subaccount
 - [Content Exposure](https://help.sap.com/docs/ABAP_PLATFORM_NEW/a7b390faab1140c087b8926571e942b7/360d55bcdea041c3b5cd39680e230398.html?locale=en-US) set up for the SAP S/4HANA system
@@ -31,9 +31,9 @@ The requirements to follow the exercises in this repository are:
 
 ## Exercises
 
-> **NOTE:** For the SAP TechEd 2022 Hands-on Session we have already prepared the landscape with **SAP Build Work Zone, Standard***. Please start directly with [Exercise 1](../ex1) as an in-person participant.
+> **NOTE:** For the SAP TechEd 2022 Hands-on Session we have already prepared the landscape with **SAP Build Work Zone, standard edition***. Please start directly with [Exercise 1](../ex1) as an in-person participant.
 
-- [Exercise 0 - Access SAP Build Work Zone, Standard](exercises/ex0/) (skip on TechEd 2022 Hands-on)
+- [Exercise 0 - Access SAP Build Work Zone, standard idition](exercises/ex0/) (skip on TechEd 2022 Hands-on)
 - [Exercise 1 - Create a Content Channel to import SAP S/4HANA Content](exercises/ex1/)
 - [Exercise 2 - Create own content in Site Manager](exercises/ex2/)
 - [Exercise 3 - Create Native App Tile for SAP Mobile Start](exercises/ex3/)
@@ -50,7 +50,7 @@ Outside of the Workshop, separate systems might be required to execute the exerc
 
 ## Footnotes
 
-\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
 
 ## Further resources
 
