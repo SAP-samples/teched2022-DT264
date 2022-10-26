@@ -16,7 +16,7 @@ The SAP Mobile Start app is your native entry point to SAP’s mobile universe.
 Discover how to set up and configure SAP Mobile Start with SAP S/4HANA and how to add your native apps. You will understand all the prerequisites and necessary steps.
 
 > **NOTE:** *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022). Please be aware that some screenshots or systems in this Hands-on material might still contain the former name *SAP Launchpad Service*.
-> <p align="center"><img src="./images/sap-build-work-zone.png" width="65%" /></p>
+> <p align="center"><img src="./images/sap-build-work-zone_1.jpg" width="65%" /></p>
 
 ## Requirements
 
