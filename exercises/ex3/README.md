@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, standard edition*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 
 ## Step 1: Create the Native App Tile (example for SAP SuccessFactors)
@@ -114,4 +114,4 @@ If your instructor already told you to continue with [Exercise 4](../ex4/), you 
 
 ## Footnotes
 
-\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
