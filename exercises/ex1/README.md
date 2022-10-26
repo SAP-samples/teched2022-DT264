@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-- SAP BTP Subaccount with *SAP Build Work Zone, Standard*\* instance enabled
+- SAP BTP Subaccount with *SAP Build Work Zone, standard edition*\* instance enabled
 - Assignment of Launchpad_Admin role collection to access the Site Manager
 - SAP S/4HANA system connected to the SAP BTP Subaccount
 - [Content Exposure](https://help.sap.com/docs/ABAP_PLATFORM_NEW/a7b390faab1140c087b8926571e942b7/360d55bcdea041c3b5cd39680e230398.html?locale=en-US) configured in the SAP S/4HANA system
@@ -21,7 +21,7 @@
     <img src="./images/tut3-1.png" width="100%" />
     </p>
 
-    You will see a list of all existing Content Channels available. In a blank *SAP Build Work Zone, Standard*\* instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
+    You will see a list of all existing Content Channels available. In a blank *SAP Build Work Zone, standard edition*\* instance, there would only be one entry for **HTML5 Apps**. This is a default channel that can be used to import apps that are deployed directly to the SAP BTP subaccount's HTML5 repository.
 
     > **NOTE:** You might see Content Channels of other participants. You can ignore them and work with your assigned user number.
 
@@ -191,4 +191,4 @@ You might have to logout / login again for the new Role assignment to become act
 
 ## Footnotes
 
-\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, Standard**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
+\* *SAP Launchpad Service* is part of the SAP Build portfolio. In early 2023, we launch a new experience with the new name **SAP Build Work Zone, standard edition**. You can learn more in the [Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=73554900100800003081&PRODUCT=73555000100800002781&range=CURRENT-LAST#Q3%202022).
