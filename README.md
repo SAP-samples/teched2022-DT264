@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-DT264)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-DT264)
+
 # DT264 - Learn How to Set Up and Configure SAP Mobile Start with SAP S/4HANA
 
 <p align="center"><img src="./images/sapteched22-dt264.jpeg" width="100%" /></p>
